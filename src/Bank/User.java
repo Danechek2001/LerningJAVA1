@@ -18,6 +18,9 @@ public class User {
         this.numberP = numberP;
         this.seriaP = seriaP;
     }
+    public User(){
+
+    }
 
     public void ageM() {
         if (age >= 18) {
