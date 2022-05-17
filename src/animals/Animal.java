@@ -1,5 +1,7 @@
 package animals;
 
-public abstract class Animal {
-    public abstract void makeSound ();
+public class Animal {
+    public void makeSound (){
+        System.out.println("sd");
+    };
 }
