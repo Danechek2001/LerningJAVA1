@@ -1,5 +1,7 @@
 package Bank;
 
+import java.util.Scanner;
+
 public class User {
     String f;
     String i;
@@ -8,6 +10,7 @@ public class User {
     int age;
     String numberP;
     String seriaP;
+    public static String classname;
 
     public User(String f, String i, String o, String sex, int age, String numberP, String seriaP) {
         this.f = f;
@@ -19,7 +22,6 @@ public class User {
         this.seriaP = seriaP;
     }
     public User(){
-
     }
 
     public void ageM() {
@@ -28,5 +30,9 @@ public class User {
         } else {
             System.out.println("Нет 18");
         }
+    }
+    public static void foo(){
+        Scanner sc = new Scanner(System.in);
+        classname = sc.next();
     }
 }
